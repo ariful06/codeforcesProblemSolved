@@ -7,7 +7,6 @@ public class PetyaAndStrings {
 	public static void main(String[] args) {
 		// accepted
 		Scanner sc = new Scanner(System.in);
-		
 		String str1 = sc.next();
 		String str2 = sc.next();
 		if(str1.length() == str2.length()){
@@ -27,6 +26,9 @@ public class PetyaAndStrings {
 					return;
 				}
 			}
+		
 		}
+		sc.close();
 	}
+		
 }

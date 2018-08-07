@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class NextRound {
 //accepted
 	public static void main(String[] args) {
-		int counter= 0,counterIfEqual=0;
+		int counterIfEqual=0;
 		Scanner sc = new Scanner(System.in);
 		int numberOfCadidade  = sc.nextInt();
 		int kThScore = sc.nextInt();
@@ -22,6 +22,7 @@ public class NextRound {
 			} 
 		}
 			System.out.println(counterIfEqual);
-		
+
+			sc.close();
 	}
 }

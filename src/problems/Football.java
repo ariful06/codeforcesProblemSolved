@@ -31,6 +31,7 @@ public class Football {
 			}else{
 				System.out.println("NO");
 			}
+			sc.close();
 	
 	}
 

@@ -17,6 +17,7 @@ public class TheatreSquare {
 		
 		 String sLong = Long.toUnsignedString(((m+(a-1))/a) * ((n+(a-1))/a));
 		System.out.println(sLong);
+		sc.close();
 
 	}
 

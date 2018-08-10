@@ -29,14 +29,14 @@ public class MirrorInClock {
 				if(hours>12){
 					int daylight = hours-12;
 					if(11-daylight==0){
-						System.out.println("12"+":"+(60-minutes));	
+						System.out.println("12"+":"+(59-minutes));	
 					}else{
-						System.out.println((11-daylight)+":"+(60-minutes));	
+						System.out.println((11-daylight)+":"+(59-minutes));	
 					}
 					
 				}else{
 					if(11-hours==0){
-						System.out.println("12"+":"+(60-minutes));	
+						System.out.println("12"+":"+(59-minutes));	
 					}else{
 						System.out.println((11-hours)+":"+(60-minutes));
 					}

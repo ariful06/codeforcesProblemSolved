@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class HelpfulMaths {
 
-	public static void bubleSort(int arr[]){
+	public  void bubleSort(int arr[]){
 		 int n = arr.length;
 	        for (int i = 0; i < n-1; i++)
 	            for (int j = 0; j < n-i-1; j++)
@@ -41,7 +41,7 @@ public class HelpfulMaths {
 			numberArray[i] = Integer.parseInt(replacePluses[i]);
 		}
 		
-		 bubleSort(numberArray);
+		 obj.bubleSort(numberArray);
 		
 		printArray(numberArray);
 		}catch(Exception e){
